@@ -21,7 +21,7 @@ nav{
     font-size: larger;
     font-style: normal;
 
-    padding: 5px;
+    padding: 0;
 }
 nav ul{
     display: flex;
@@ -31,9 +31,8 @@ nav ul{
     flex-direction: row;
 }
 nav ul li{
-    margin-right:120px;
+    margin:70px;
     text-align: center;
-    text-transform: capitalize;
 }
 
 h1, h3, h5, p{
