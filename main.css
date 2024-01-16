@@ -53,4 +53,13 @@ h3, h5{
     border-radius: 50%;
     
 }
-      
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(139, 197, 178);
+    height: 100px;
+    color: azure;
+}
+.footer-contents{
+    padding: 10px;
+}
