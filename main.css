@@ -7,32 +7,54 @@ header{
     padding: 10px;
     background-color: rgb(139, 197, 178);
     color:azure;
-    margin:auto;
-    height:150px}
+    margin:0;
+    height:150px
+}
 .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: left;
+    text-align: center;
     flex-direction:column;
-}   
-nav{
+    overflow-x: hidden
+}  
+.container {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    overflow-x: hidden;
+}
+
+nav {
     display: flex;
     font-size: larger;
     font-style: normal;
-
     padding: 0;
 }
-nav ul{
+
+nav ul {
     display: flex;
-    width:100%;
+    width: 100%;
     padding: 10px;
     list-style-type: none;
     flex-direction: row;
 }
-nav ul li{
-    margin:70px;
+
+nav li {
+    margin: 0 80px;
     text-align: center;
+    position: relative;
+}
+
+nav li:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    height: 40px; 
+    width: 2px; 
+    background-color: rgb(139, 197, 178);
+    top: 50%; /* Center the line vertically */
+    transform: translateY(-50%); /* Adjust for centering */
+    right: -90px; /* Adjust the distance between the line and the list item */
 }
 
 h1, h3, h5, p{
@@ -41,11 +63,15 @@ h1, h3, h5, p{
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-h3, h5{
+h3{
     font-family: sans-serif;
     color: rgb(118, 167, 150);
+    text-align: center;
+    margin: 10px;
 }
-
+h5{
+    text-align: left;
+}
 .profile-img img{
     width:150px;
     height:150px;
@@ -53,13 +79,24 @@ h3, h5{
     border-radius: 50%;
     
 }
+section{
+    margin-bottom: 20px;
+}
+.about{
+    font-family: serif;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
 footer{
     text-align: center;
     padding: 10px;
     background-color: rgb(139, 197, 178);
     height: 100px;
-    color: azure;
+    color: rgb(255, 255, 255);
 }
 .footer-contents{
     padding: 10px;
+    color:rgb(255, 255, 255);
 }
+/*bye for now*/
