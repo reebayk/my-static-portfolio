@@ -16,11 +16,36 @@ header{
     text-align: left;
     flex-direction:column;
 }   
+nav{
+    display: flex;
+    font-size: larger;
+    font-style: normal;
+
+    padding: 5px;
+}
+nav ul{
+    display: flex;
+    width:100%;
+    padding: 10px;
+    list-style-type: none;
+    flex-direction: row;
+}
+nav ul li{
+    margin-right:120px;
+    text-align: center;
+    text-transform: capitalize;
+}
 
 h1, h3, h5, p{
     margin:0;
 }
-
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3, h5{
+    font-family: sans-serif;
+    color: rgb(118, 167, 150);
+}
 
 .profile-img img{
     width:150px;
