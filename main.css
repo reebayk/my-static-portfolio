@@ -1,3 +1,48 @@
 body {
-    background-image: ('cb.jpeg');
+    background-color: blanchedalmond;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+header{
+    padding: 10px;
+    background-color: cornflowerblue;
+    color:azure;
+    margin:auto;
+    height:150px}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    text-align: left;
+}   
+
+h1, h3, p{
+    margin:0;
+}
+div{
+    text-align: right;
+    margin-right: 5px;
+}
+.profile-img img{
+    width:150px;
+    height:150px;
+    image-rendering: optimizeQuality;
+    border-radius: 50%;
+    
+}
+      
+header {
+    padding: 10px;
+    background-color: cadetblue;
+    color: azure;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+
