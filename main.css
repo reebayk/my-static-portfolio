@@ -5,18 +5,19 @@ body {
 }
 header{
     padding: 10px;
-    background-color: cornflowerblue;
+    background-color: rgb(139, 197, 178);
     color:azure;
     margin:auto;
     height:150px}
 .header-content {
     display: flex;
     justify-content: space-between;
-    align-items: left;
+    align-items: center;
     text-align: left;
+    flex-direction:column;
 }   
 
-h1, h3, p{
+h1, h3, h5, p{
     margin:0;
 }
 div{
@@ -31,18 +32,3 @@ div{
     
 }
       
-header {
-    padding: 10px;
-    background-color: cadetblue;
-    color: azure;
-}
-
-.header-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    text-align: left;
-}
-
-
