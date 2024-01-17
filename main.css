@@ -52,9 +52,9 @@ nav li:not(:last-child)::after {
     height: 40px; 
     width: 2px; 
     background-color: rgb(139, 197, 178);
-    top: 50%; /* Center the line vertically */
-    transform: translateY(-50%); /* Adjust for centering */
-    right: -90px; /* Adjust the distance between the line and the list item */
+    top: 50%; 
+    transform: translateY(-50%); 
+    right: -90px;
 }
 
 h1, h3, h5, p{
@@ -88,6 +88,31 @@ section{
     margin-right: 20px;
     margin-left: 20px;
 }
+#skills {
+    text-align: center; /* Optional: Center the content */
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skill {
+    width: 45%; /* Adjust as needed for spacing */
+    margin: 10px; /* Adjust as needed for spacing */
+    text-align: left;
+}
+
+.skill img {
+    max-width: 100%;
+    height: auto;
+}
+
+.skill-description {
+    padding: 0 20px; /* Adjust as needed for spacing */
+}
+
 footer{
     text-align: center;
     padding: 10px;
