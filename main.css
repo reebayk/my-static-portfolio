@@ -88,29 +88,42 @@ section{
     margin-right: 20px;
     margin-left: 20px;
 }
-#skills {
-    text-align: center; /* Optional: Center the content */
-}
-
 .skills {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: row;
+    vertical-align: auto;
 }
 
-.skill {
-    width: 45%; /* Adjust as needed for spacing */
-    margin: 10px; /* Adjust as needed for spacing */
+.html {
     text-align: left;
 }
 
-.skill img {
-    max-width: 100%;
-    height: auto;
+.html-img {
+    text-align: left;
+    width: 100px;
+    height: 100px;
+    opacity: 50%;
 }
 
-.skill-description {
-    padding: 0 20px; /* Adjust as needed for spacing */
+.html-p {
+    text-align: right;
+    opacity: 100%; /* Set opacity to 100% for the paragraph */
+}
+
+.css {
+    text-align: left;
+}
+
+.css-img {
+    text-align: left;
+    width: 100px;
+    height: 100px;
+    opacity: 50%;
+}
+
+.css-p {
+    text-align: right;
+    opacity: 100%; /* Set opacity to 100% for the paragraph */
 }
 
 footer{
