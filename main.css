@@ -5,7 +5,7 @@ body {
 }
 header{
     padding: 10px;
-    background-color: rgb(139, 197, 178);
+    background-color: #8bc5b2;
     color:azure;
     margin:0;
     height:150px
@@ -123,18 +123,18 @@ section{
 
 .css-p {
     text-align: right;
-    opacity: 100%; /* Set opacity to 100% for the paragraph */
+    opacity: 100%; 
 }
 
 footer{
     text-align: center;
     padding: 10px;
-    background-color: rgb(139, 197, 178);
+    background-color: #8bc5b2;
     height: 100px;
-    color: rgb(255, 255, 255);
+    color: white;
 }
 .footer-contents{
     padding: 10px;
-    color:rgb(255, 255, 255);
+    color: white;
 }
 /*bye for now*/
