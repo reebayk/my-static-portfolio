@@ -14,3 +14,6 @@ This project showcases my skills and projects as a web developer
 <em>
   Feel free to explore the code, and don't hesitate to reach out if you have any questions or feedback!
 </em>
+<br>
+<hr>
+Here's the link to my <a href="https://reebayk.github.io/my-portfolio/" target="_blank">Portfolio</a>

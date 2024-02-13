@@ -119,11 +119,24 @@ section{
     height: 300px;
     opacity: 0.7;
 }
-footer {
+.css-img {
+    text-align: left;
+    width: 100px;
+    height: 100px;
+    opacity: 50%;
+}
+
+.css-p {
+    text-align: right;
+    opacity: 100%; 
+}
+
+footer{
     text-align: center;
     padding: 10px;
     background-color: #8bc5b2;
     height: 100px;
     color: white;
 }
+
 /*bye for now*/
