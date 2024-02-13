@@ -1,11 +1,11 @@
 body {
     background-color: blanchedalmond;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 header{
     padding: 10px;
-    background-color: rgb(139, 197, 178);
+    background-color: #8bc5b2;
     color:azure;
     margin:0;
     height:150px
@@ -16,7 +16,7 @@ header{
     align-items: center;
     text-align: center;
     flex-direction:column;
-    overflow-x: hidden
+    overflow-x: hidden;
 }  
 .container {
     display: flex;
@@ -65,7 +65,7 @@ h1{
 }
 h3{
     font-family: sans-serif;
-    color: rgb(118, 167, 150);
+    color: #8bc5b2;
     text-align: center;
     margin: 10px;
 }
@@ -91,50 +91,39 @@ section{
 .skills {
     display: flex;
     flex-direction: row;
-    vertical-align: auto;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid white; /* Added a border style for visualization */
 }
 
-.html {
-    text-align: left;
+.html, .css {
+    text-align: center;
 }
 
-.html-img {
-    text-align: left;
-    width: 100px;
-    height: 100px;
-    opacity: 50%;
+.html-img, .css-img {
+    width: 200px; /* Increased width for better clarity */
+    height: 200px; /* Increased height for better clarity */
+    opacity: 0.5; /* Changed to decimal value for opacity */
+    overflow: hidden;
 }
 
-.html-p {
-    text-align: right;
-    opacity: 100%; /* Set opacity to 100% for the paragraph */
+.html-p, .css-p {
+    text-align: center;
+    opacity: 1; /* Changed opacity value to 1 for full opacity */
 }
-
-.css {
-    text-align: left;
+.funfacts {
+    text-align: center;
+    background-image: url(cb.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    opacity: 0.7;
 }
-
-.css-img {
-    text-align: left;
-    width: 100px;
-    height: 100px;
-    opacity: 50%;
-}
-
-.css-p {
-    text-align: right;
-    opacity: 100%; /* Set opacity to 100% for the paragraph */
-}
-
-footer{
+footer {
     text-align: center;
     padding: 10px;
-    background-color: rgb(139, 197, 178);
+    background-color: #8bc5b2;
     height: 100px;
-    color: rgb(255, 255, 255);
-}
-.footer-contents{
-    padding: 10px;
-    color:rgb(255, 255, 255);
+    color: white;
 }
 /*bye for now*/
