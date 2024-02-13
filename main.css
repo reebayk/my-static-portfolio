@@ -111,13 +111,28 @@ section{
     text-align: center;
     opacity: 1; /* Changed opacity value to 1 for full opacity */
 }
-.funfacts {
+#funfacts {
     text-align: center;
     background-image: url(cbc.jpeg);
     background-position: center;
     background-repeat: no-repeat;
-    height: 200px;
-    width: 600px
+    background-size: cover; /* Ensure the background image covers the entire area */
+    padding: 20px; /* Add padding for better readability */
+}
+
+.funfacts {
+    max-width: 600px; /* Limit the width of the content container */
+    margin: 0 auto; /* Center the content horizontally */
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background to improve readability */
+    padding: 20px; /* Add padding to the content container */
+}
+
+.funfacts h4 {
+    text-align: center;
+}
+
+.funfacts p {
+    text-align: justify; /* Justify the text for better readability */
 }
 footer{
     color: white;
