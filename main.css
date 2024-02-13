@@ -113,7 +113,7 @@ section{
 }
 .funfacts {
     text-align: center;
-    background-image: url(cb.jpeg);
+    background-image: url(cbc.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     height: 300px;
@@ -139,4 +139,3 @@ footer{
     color: white;
 }
 
-/*bye for now*/
