@@ -16,4 +16,4 @@ This project is a static portfolio showcasing my css skills
 </em>
 <br>
 <hr>
-Here's the link to my <a href="https://reebayk.github.io/my-portfolio/" target="_blank">Portfolio</a>
+Here's the link to my <a https://reebayk.github.io/my-static-portfolio/ " target="_blank">Portfolio</a>
