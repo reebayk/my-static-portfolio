@@ -1,5 +1,5 @@
 # My Portfolio
-This project showcases my skills and projects as a web developer
+This project is a static portfolio showcasing my css skills
 # Features
 <h3>About Me</h3>
 <p>A brief introduction to who I am and my passion for web development.</p>
